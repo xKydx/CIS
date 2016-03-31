@@ -1,23 +1,22 @@
 #!/usr/bin/python
+# no pause.
+#
 
 import os
 import sys
 from sys import argv
-
 usrnpt = argv
-
 prompt = ".:|"
-
 os.system('clear')
 print ("Installing Conky")
 print("\n")
 print("Press y to install n to skip")
 usrnpt = raw_input(prompt)
 if 'y' in usrnpt:
-        os.system('sudo apt-get install conky-all')
+    os.system('sudo apt-get install conky-all')
 else:
-	print ("Not Installed")
-
+    print ("Not Installed")
+print("\n")
 print("Conky install complete.")
 print("\n")
 print("\n")
@@ -39,7 +38,7 @@ print("\n")
 print ("Install BO3 font now?")
 usrnpt = raw_input(prompt)
 if 'y' in usrnpt:
-        os.system('sudo cp agency-fb.ttf /etc/fonts/agency-fb.ttf')
+    os.system('sudo cp agency-fb.ttf /etc/fonts/agency-fb.ttf')
 else:
     print ("Not Installed")
 print("\n")
