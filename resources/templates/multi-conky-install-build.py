@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# Python script to install multiple conky files
+# Python script to install conky files
 #
 import os
 import sys
@@ -10,7 +10,7 @@ usrnpt = argv
 prompt = ".:|"
 
 os.system('clear')
-print "Multiple conkyrc file Python installer script"# Name of Conky
+print "Multiple conkyrc file Python installer script"
 print("\n")
 print "Please choose your conky from this list"# Name of Conky
 print("""KYD_Grey_conkyrc

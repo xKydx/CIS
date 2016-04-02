@@ -13,10 +13,11 @@ os.system('clear')
 print "Name-of-Conky-to-be-installed-here"# Name of Conky
 print("\n")
 print("\n")
-print ("Install Conky file now?")
+print ("Install Conky file now? type no to cancel")
 usrnpt = raw_input(prompt)
 if 'y' in usrnpt:
-	os.system("sudo cp /NAME/OF/DIRECTORY/filename /etc/conky/conky.conf")# EG: sudo cp ~/Downloads/conkyrc /etc/conky/conky.conf
+	os.system("sudo cp /NAME/OF/DIRECTORY/filename /etc/conky/conky.conf")
+	# EG: sudo cp ~/Downloads/ic-v0.1/conkyrc /etc/conky/conky.conf
 else:
 	print ("Not Installed")
 print("\n")
