@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# Python script to install conky files
+# Python script to install multiple conky files.
 #
 import os
 import sys
