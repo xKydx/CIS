@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # no pause.
-#
+
 
 import os
 import sys
@@ -8,19 +8,20 @@ from sys import argv
 usrnpt = argv
 prompt = ".:|"
 os.system('clear')
-print ("Installing Conky")
+print ("Conky install script")
 print("\n")
-print("Press y to install n to skip")
+print("Press y to install conky file or n to quit")
 usrnpt = raw_input(prompt)
 if 'y' in usrnpt:
     os.system('sudo apt-get install conky-all')
 else:
     print ("Not Installed")
+    os.system(exit)
 print("\n")
 print("Conky install complete.")
 print("\n")
 print("\n")
-print "Conky BO3 Tweeked Install"
+print "Conkyname Install"
 print("\n")
 print("Your conky.conf file will be backedup to conky.back \n")
 print("\n")
