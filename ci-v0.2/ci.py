@@ -32,14 +32,14 @@ print("\n")
 ## Uncomment if your installing a font with your conky.
 ## No need if your not.
 
-#print ("Install font now?")
-#usrnpt = raw_input(prompt)
-#if 'y' in usrnpt:
-#	os.system('sudo cp Font-name.ttf /etc/fonts/Font-name.ttf')#replace Name of font.
-#else:
-#	print ("Not Installed")
-#print("\n")
-#print("\n")
+print ("Install font now?")
+usrnpt = raw_input(prompt)
+if 'y' in usrnpt:
+	os.system('sudo cp Font-name.ttf /etc/fonts/Font-name.ttf')#replace Name of font.
+else:
+	print ("Not Installed")
+print("\n")
+print("\n")
 print ("Multi-conky install script complete")# Name of conky
 print("\n")
 print ("You can start conky by typing 'conky' in a terminal window.")
