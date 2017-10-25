@@ -15,7 +15,9 @@ print "Multiple conkyrc file Python installer script"# Name of Conky
 print("\n")
 print "Please choose your conky from this list"# Name of Conky
 print("""KYD_Grey_conkyrc
-Siff_Grey_conkyrc """)
+Siff_Grey_conkyrc
+Mini-conkyrc
+QNRBconkyrc """)
 print("\n")
 print("\n")
 usrnpt = raw_input(prompt)
@@ -23,6 +25,10 @@ if 'S' in usrnpt:
 	os.system("sudo cp ~/Downloads/ci-v0.2/Siff_Grey_conkyrc /etc/conky/conky.conf")# EG: sudo cp ~/Downloads/conkyrc /etc/conky/conky.conf
 if 'k' in usrnpt:
 	os.system("sudo cp ~/Downloads/ci-v0.2/KYD_Grey_conkyrc /etc/conky/conky.conf")# EG: sudo cp ~/Downloads/conkyrc /etc/conky/conky.conf
+if 'q' in usrnpt:
+	os.system("sudo cp ~/Downloads/ci-v0.2/QNRBconkyrc /etc/conky/conky.conf")# EG: sudo cp ~/Downloads/conkyrc /etc/conky/conky.conf
+if 'm' in usrnpt:
+	os.system("sudo cp ~/Downloads/ci-v0.2/Mini-conkyrc /etc/conky/conky.conf")# EG: sudo cp ~/Downloads/conkyrc /etc/conky/conky.conf
 else:
 	print ("Not Installed")
 	print("Please re-run the script and try again")
