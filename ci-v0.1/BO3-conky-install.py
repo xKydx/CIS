@@ -8,24 +8,12 @@ from sys import argv
 usrnpt = argv
 prompt = ".:|"
 os.system('clear')
-print ("Conky install script")
 print("\n")
-print("Press y to install conky file or n to quit")
-usrnpt = raw_input(prompt)
-if 'y' in usrnpt:
-    os.system('sudo apt-get install conky-all')
-else:
-    print ("Not Installed")
-    os.system(exit)
+print "Black Ops 3 themed conky Install"
 print("\n")
-print("Conky install complete.")
+print("Your conky.conf file will be backedup to conky.back in the next step \n")
 print("\n")
-print("\n")
-print "Conkyname Install"
-print("\n")
-print("Your conky.conf file will be backedup to conky.back \n")
-print("\n")
-print ("Install Conky file now?")
+print ("Do you wish to install Black Ops 3 themed Conky file now?")
 print("\n")
 print("Press y to install n to skip")
 usrnpt = raw_input(prompt)
@@ -36,15 +24,10 @@ else:
         print ("Not Installed")
 print("\n")
 print("\n")
-print ("Install BO3 font now?")
-usrnpt = raw_input(prompt)
-if 'y' in usrnpt:
-    os.system('sudo cp agency-fb.ttf /etc/fonts/agency-fb.ttf')
-else:
-    print ("Not Installed")
-print("\n")
-print("\n")
-print ("Conky BO3 Tweeked install script complete")
+print ("Black Ops 3 themed conky install complete")
 print("\n")
 print ("You can start conky by typing 'conky' in a terminal window.")
+print("\n")
+print("\n")
+print ("Thank you for using the Blacks Ops 3 CIS.")
 print("\n")
