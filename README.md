@@ -6,4 +6,4 @@ Thanks to friends that make things to do.
 
 Python script to install conky files to the correct directory. (eg.  /etc/conky/conky.conf)
 
-KYD and SIFF D.Inc
+SIFF/KYD D.Inc
