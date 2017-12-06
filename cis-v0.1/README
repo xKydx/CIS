@@ -1,0 +1,9 @@
+CIS README
+
+You must edit the cis.py file to install the conky file you want.
+First step is to open the cis.py file with any text editor.
+Edit line 22 or the line with os.system("sudo cp ~/Downloads/Input-your-conkyrc-file-here /etc/conky/conky.conf")
+remove Input-your-conkyrc-file-here and input the name of the conky file you want to install.
+
+Links
+Download conky files @ https://www.opendesktop.org/member/366587/products/
