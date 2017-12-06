@@ -13,7 +13,8 @@ prompt = ".:|"
 os.system('clear')
 print "Multiple conkyrc file Python installer script"# Name of Conky
 print("\n")
-print "Please choose your conky from this list"# Name of Conky
+print("\n")
+print "Please choose your conky from this list. NOTE You can only install one at a time."# Name of Conky
 print("""KYD_Grey_conkyrc
 Siff_Grey_conkyrc
 Mini-conkyrc
@@ -38,12 +39,12 @@ print("\n")
 ## Uncomment if your installing a font with your conky.
 ## No need if your not.
 
-print ("Install font now?")
-usrnpt = raw_input(prompt)
-if 'y' in usrnpt:
-	os.system('sudo cp Font-name.ttf /etc/fonts/Font-name.ttf')#replace Name of font.
-else:
-	print ("Not Installed")
+#print ("Install font now?")
+#usrnpt = raw_input(prompt)
+#if 'y' in usrnpt:
+#	os.system('sudo cp Font-name.ttf /etc/fonts/Font-name.ttf')#replace Name of font.
+#else:
+#	print ("Not Installed")
 print("\n")
 print("\n")
 print ("Multi-conky install script complete")# Name of conky
