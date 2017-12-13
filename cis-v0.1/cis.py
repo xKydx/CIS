@@ -1,6 +1,5 @@
 #!/usr/bin/python
-# no pause.
-# Final edit
+# CIS Version 0.1
 
 import os
 import sys
@@ -30,5 +29,6 @@ print ("You can start conky by typing 'conky' in a terminal window.")
 print("\n")
 print("\n")
 print ("Thank you for using CIS.")
+print("\n")
 print("\n")
 print("Download more conky.conf and conkyrc files @ https://www.opendesktop.org/member/366587/products/")
