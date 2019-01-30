@@ -6,4 +6,7 @@ Conky Install Script.
 
 Python script to install conky files to the correct directory. (eg.  /etc/conky/conky.conf)
 
+download files form https://www.opendesktop.org/u/kyd/
+
+
 SIFF/KYD/Jr D.Inc
